@@ -1,0 +1,12 @@
+.nav-item {
+    margin: 0px 5px;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover{
+    scale: 125%;
+}
+.active{
+    scale: 125%;
+}
