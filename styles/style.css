@@ -159,3 +159,12 @@ main section form label{
         grid-template-columns: repeat(3,1fr);
     }
 }
+
+.downloads{
+    row-gap: 100px;
+    margin: 20px;
+}
+.descarga{
+    display: inline-block;
+    justify-content: center;
+}
