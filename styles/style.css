@@ -108,3 +108,29 @@ main section form label{
     height: 600px;
     border-radius: 30px;
 }
+
+/* Pagina about us */
+.container-about{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container-about .texto{
+    display: inline-block;
+    width: 60%;
+    padding: 30px;
+}
+.container-about .imagen{
+    padding: 10px;
+    margin: 50px;
+}
+.container-about img{
+    border-radius: 30px;
+}
+.container-about .texto h{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
