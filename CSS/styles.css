@@ -15,6 +15,16 @@ body main {
   min-height: 100vh;
 }
 
+h1 {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 800;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -65,8 +75,9 @@ body footer .footer-container nav ul li a img {
 main .flex-container {
   display: flex;
   flex-flow: row wrap;
-  width: 100%;
+  width: 90%;
   justify-content: center;
+  margin: 0 auto;
 }
 main .flex-container .item-img {
   display: flex;
@@ -74,7 +85,7 @@ main .flex-container .item-img {
   justify-content: center;
 }
 main .flex-container .item-img .main-img {
-  width: 80%;
+  width: 70%;
   border-radius: 30px;
   margin: 0 auto;
 }
@@ -123,7 +134,7 @@ main .flex-container-destacados .flex-item-destacados .main-img-producto {
   }
 }
 .grid-container-img {
-  width: 90%;
+  width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
@@ -159,6 +170,8 @@ main .flex-container-destacados .flex-item-destacados .main-img-producto {
 
 .container-about {
   display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
 .container-about .item-about {
   width: 50%;
@@ -195,7 +208,7 @@ main .flex-container-destacados .flex-item-destacados .main-img-producto {
   width: 60%;
   padding: 50px;
 }
-.container-contacto-principal .form p {
+.container-contacto-principal .form h2 {
   text-align: center;
 }
 .container-contacto-principal .form .container-form {
@@ -206,7 +219,7 @@ main .flex-container-destacados .flex-item-destacados .main-img-producto {
   padding: 50px;
   width: auto;
 }
-.container-contacto-principal .map p {
+.container-contacto-principal .map h2 {
   text-align: center;
 }
 .container-contacto-principal .map iframe {
