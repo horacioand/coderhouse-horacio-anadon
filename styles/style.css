@@ -19,7 +19,7 @@ html{
 
 /* index */
 /* Seccion superior*/
-.grid-container-1 {
+/* .grid-container-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
     gap: 10px;
@@ -37,7 +37,7 @@ html{
     width: 100%;
     padding: 5%;
     border-radius: 100px;
-}
+} */
 
 @media only screen and (max-width: 600px) {
     .main-img-container{
@@ -50,7 +50,7 @@ html{
         display: none;
     }
 }
-/* Seccion inferior */
+/* Seccion inferior
 .grid-container-destacados {
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -64,7 +64,7 @@ html{
 .grid-container-destacados .grid-item a{
     display: flex;
     justify-content: center;
-}
+} */
 @media only screen and (max-width:600px){
     .grid-container-destacados{
         grid-template-columns: 1fr;

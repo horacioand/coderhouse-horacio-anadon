@@ -1,0 +1,30 @@
+ /* Nav-Bar */
+// estilos principales con boostrap
+ nav {
+    // estilos del logo
+    div{
+        a{
+            img{
+                width: 120px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    // Arreglos de links
+    .nav-item {
+        margin: 0px 5px;
+    
+        .active{
+            scale: 115%;
+        }
+    
+        .nav-link {
+            color: whitesmoke;
+    
+            &:hover{
+                scale: 115%;
+            }
+        } 
+    }
+ }

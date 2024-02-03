@@ -1,0 +1,45 @@
+.container-contacto-principal{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .form{
+        p{
+            text-align: center;
+        }
+        width: 60%;
+        padding: 50px;
+        
+        .container-form{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .map{
+        p{
+            text-align: center;
+        }
+        padding: 50px;
+        width: auto;
+        iframe{
+            width: 100%;
+            height: 90%;
+        }
+    }
+}
+
+/* media query mobile and tablet */
+@media only screen and (max-width:1000px) {
+    .container-contacto-principal{
+        .form{
+            width: 100%;
+        }
+        .map{
+            width: 100%;
+            iframe{
+                width: 100%;
+                height: 90%;
+            }
+        }
+    }
+}
