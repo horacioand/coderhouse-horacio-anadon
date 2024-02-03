@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz@6..12&display=swap");
-body {
-  background-color: whitesmoke;
-}
-
 html {
   padding: 0px;
   margin: 0px;
@@ -10,6 +6,7 @@ html {
 
 body {
   min-width: 320px;
+  background-color: #F5F5F5;
 }
 body main {
   min-height: 100vh;
@@ -79,19 +76,19 @@ main .flex-container {
   justify-content: center;
   margin: 0 auto;
 }
+main .flex-container .flex-item {
+  width: 100%;
+  padding: 10px 50px 10px 50px;
+}
 main .flex-container .item-img {
   display: flex;
-  flex-flow: row wrap;
+  padding: 10px;
   justify-content: center;
+  margin-bottom: 20px;
 }
 main .flex-container .item-img .main-img {
   width: 70%;
   border-radius: 30px;
-  margin: 0 auto;
-}
-main .flex-container .flex-item {
-  width: 100%;
-  padding: 50px;
 }
 main hr {
   margin: 0 100px;
