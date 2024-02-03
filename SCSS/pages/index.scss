@@ -22,9 +22,14 @@ main {
         }
     }
 
+    hr{
+        margin: 0 100px;
+    }
     .destacados{
         text-align: center;
         p{
+            margin-top: 20px;
+            margin-bottom: 0px;
             font-weight: 600;
         }
     }
