@@ -1,14 +1,14 @@
 // Archivos generales
-    @import "general/colors.scss";  //Colores
-    @import "general/estilos-generales.scss";   //Tamaños
-    @import "general/fuentes.scss";     //Fuentes
+    @import "general/_colors.scss";  //Colores
+    @import "general/_estilos-generales.scss";   //Tamaños
+    @import "general/_fuentes.scss";     //Fuentes
 // Estilos de footer y nav-bar
-        @import "general/navbar.scss";
-        @import "general/footer.scss";
+        @import "general/_navbar.scss";
+        @import "general/_footer.scss";
 
 // Estilos individuales de las paginas
-@import "pages/index.scss";
-@import "pages/gallery.scss";
-@import "pages/downloads.scss";
-@import "pages/about.scss";
-@import "pages/contact.scss";
+@import "pages/_index.scss";
+@import "pages/_gallery.scss";
+@import "pages/_downloads.scss";
+@import "pages/_about.scss";
+@import "pages/_contact.scss";
