@@ -120,6 +120,9 @@ main .flex-container-destacados .flex-item-destacados .main-img-producto {
 }
 
 @media only screen and (max-width: 360px) {
+  .flex-container .main-text .paragraph-1 {
+    font-size: 16px;
+  }
   .flex-container .main-text .paragraph-2 {
     display: none;
   }
@@ -191,6 +194,9 @@ main .flex-container-destacados .flex-item-destacados .main-img-producto {
   }
   .container-about .texto {
     width: 100%;
+  }
+  .container-about .texto p {
+    font-size: 16px;
   }
   .container-about .imagen img {
     width: 100%;
