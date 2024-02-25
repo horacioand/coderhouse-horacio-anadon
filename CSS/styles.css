@@ -236,7 +236,7 @@ main .flex-container-destacados .flex-item-destacados .main-img-producto {
   height: 80%;
 }
 
-/* media query mobile and tablet */
+/* media query mobile y tablet */
 @media only screen and (max-width: 1000px) {
   .container-contacto-principal .form {
     width: 100%;
