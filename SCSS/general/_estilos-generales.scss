@@ -7,6 +7,10 @@ body{
     min-width: 320px;
     background-color: $background;
     main{
+        .titulo{
+            text-align: center;
+            font-size: 1em;
+        }
         min-height: 100vh;
     }
 }
@@ -20,3 +24,4 @@ h2{
     font-size: 1em;
     font-weight: 800;
 }
+

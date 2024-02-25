@@ -1,8 +1,13 @@
+@mixin grid-layout($columnas) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+}
+
 .grid-container-img{
     width: 70%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
+    @include grid-layout(3);
+    
     .grid-item-img{
         width: auto;
         margin: 10px;
@@ -15,14 +20,14 @@
 //  MEDIA QUERY MOBILE
 @media only screen and (max-width:360px){
     .grid-container-img{
-        grid-template-columns: 1fr;  
+        @include grid-layout(1); 
     }
 }
 
 // MEDIA QUERY TABLET
 @media only screen and (min-width:361px) and (max-width:901px){
     .grid-container-img{
-        grid-template-columns: 1fr 1fr;
+        @include grid-layout(2);
     }
 
 }

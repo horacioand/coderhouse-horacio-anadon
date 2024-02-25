@@ -11,6 +11,10 @@ body {
 body main {
   min-height: 100vh;
 }
+body main .titulo {
+  text-align: center;
+  font-size: 1em;
+}
 
 h1 {
   font-weight: 900;
@@ -135,9 +139,9 @@ main .flex-container-destacados .flex-item-destacados .main-img-producto {
 }
 .grid-container-img {
   width: 70%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .grid-container-img .grid-item-img {
   width: auto;
@@ -149,12 +153,14 @@ main .flex-container-destacados .flex-item-destacados .main-img-producto {
 
 @media only screen and (max-width: 360px) {
   .grid-container-img {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media only screen and (min-width: 361px) and (max-width: 901px) {
   .grid-container-img {
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .grid-container-img .grid-item-img {
